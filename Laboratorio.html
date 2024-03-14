@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio</title>
+</head>
+<body>
+    
+    <script>
+
+        const triangulos = [
+          { base: 5, altura: 8 },
+          { base: 7, altura: 10 },
+          { base: 3, altura: 6 },
+          { base: 9, altura: 12 },
+          { base: 4, altura: 7 }
+        ];
+            
+        triangulos.forEach((triangulo, numb) => {
+          var area = (triangulo.base * triangulo.altura) / 2;
+          console.log(`Área del triángulo ${numb + 1}: ${area}`);
+        });
+
+    
+    </script>
+
+</body>
+</html>
